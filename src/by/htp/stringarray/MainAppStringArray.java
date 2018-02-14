@@ -9,13 +9,13 @@ public class MainAppStringArray {
 		sg.addStudent("StudentName1");
 		sg.addStudent("StudentName2");
 		sg.addStudent("StudentName3");
-//		sg.addStudent("StudentName4");
+		sg.addStudent("StudentName4");
 		sg.addStudent("StudentName5");
 		sg.addStudent("StudentName6");
 		sg.addStudent("StudentName7");
 
-		for (String name : sg.getStudents()) {
-			System.out.println(name);
+		for (int i = 0; i < sg.getStudents().length; i++) {
+			System.out.println(sg.getStudents()[i]);
 		}
 
 	}
